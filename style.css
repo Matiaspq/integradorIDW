@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica sans-serif;
+    margin:0;
+}
+
+body{
+    background-color: #BDC3C7;
+}
+
+#tamaño{
+    transition: padding 0.99s linear;
+}
+#div1{
+    display: flex;
+}
+#div2{
+    display: flex;
+}
+#div3{
+    display: flex;
+}
+#reloj{
+    color:blue;
+    font-size: 48px;
+    font-style: oblique;
+    text-align: center;
+    border-radius: 30%;
+    border: 3px groove black;
+  }
+
+p{
+    font-size: 25px;
+    font-style: oblique;
+}
+
+#regresivo{
+    color:blue;
+    font-size: 48px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px groove black;
+}
+.divs{
+    border-radius: 50px;
+    border: 3px groove blue;
+    margin:10px;
+    padding: 30px;
+}
+
+.boton{
+    background-color: #0000FF;
+    color:white;
+    padding: 6px;
+    font-size: 15px;
+    margin-left: 18px;
+    margin-top: 5px;
+    transition: padding 0.99s linear;
+    border-radius: 50px;
+}
+
+.boton:hover{
+    background-color: #018bad;
+}
+
+img{
+    width: 200px;
+    height: 150px;
+    float:right;
+    margin-right: 35px;
+    border-radius: 50%;
+}
+
+h1 {
+    background-color:#0000FF;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 55px;
+   }
+
+h2 {
+    background-color:#0000FF;
+    text-align: right;
+    color: white;
+    font-size: 17px;
+    margin-top: -20px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+   }
+
+#animales{
+    background-color: #0000FF;;
+    color:white;
+    padding: 6px;
+    font-size: 15px;
+    margin-left: 18px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+        }
+    }

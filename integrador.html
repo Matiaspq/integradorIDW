@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntegradorIDW</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Integrador de Introducción al Desarrollo Web</h1>
+    <h2>Matias Perez E014-219</h2>
+    <div id="div1">
+    <div class="divs">
+        <h3>1. Cambiar color de fondo</h3>
+        <input type="button" value="Cambiar fondo" onClick="cambiarFondo()" class="boton"></input> 
+    </div>
+    
+    <div class="divs">
+        <h3>2. Contador incrementa en 1</h3>
+        <p id="contador">0</p>
+        <input type="button" value="Incrementar" onClick="incrementar()" class="boton"></input> 
+    </div>
+    <div class="divs">
+        <h3>3. Aumenta de tamaño al pasar el cursor</h3>
+        <input type="button" value="Cambiar tamaño" onmouseover="tamaño()" onmouseout="reset()" id="tamaño" class="boton"></input> 
+    </div>
+    </div>
+    <div id="div2">
+        <div class="divs">
+            <h3>5. Aumenta tamaño al dar click</h3>
+            <input type="button" value="Cambiar tamaño" onClick="tamañotexto()" id="tamañotext" class="boton"></input> 
+        </div>
+        <div class="divs">
+            <h3 id="colortexto">7. Cambiar color del texto al dar click</h3>
+            <input type="button" value="Cambiar color" onClick="cambiarcolor()" class="boton"></input> 
+        </div>
+        <div class="divs">
+            <h3>8. 14. Cambiar contenido del texto al dar click</h3>
+            <p id="contenido">Texto</p>
+            <input type="button" value="Cambiar contenido" onClick="cambiarcont()" class="boton"></input> 
+        </div>
+    </div>
+    <div id="div3">
+        <div class="divs">
+            <h3>11. Reloj</h3>
+            <h4 id="reloj"></h4>
+        </div>
+        <div class="divs">
+            <h3>6. 12. Contador regresivo</h3>
+            <p id="regresivo">100</p>
+        </div>
+        <div class="divs">
+            <h3>15. Lista desplegable con distintos animales</h3>
+            <select id="animales" onchange="animal()">
+                <option>Selecciona animal</option>
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+                <option value="leon">León</option>
+                <option value="tigre">Tigre</option>
+              </select>
+        </div>
+    </div>
+    <div id="imagen"></div>
+</body>
+</html>
