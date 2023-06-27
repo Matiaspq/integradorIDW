@@ -11,7 +11,7 @@ function incrementar(){
 }
 
 function tamaño(){
-    document.querySelector("#tamaño").style.padding="15px";
+    document.querySelector("#tamaño").style.padding="22px";
 }
 
 function reset(){
@@ -19,7 +19,7 @@ function reset(){
 }
 
 function tamañotexto(){
-    document.querySelector("#tamañotext").style.padding="15px";
+    document.querySelector("#tamañotext").style.padding="22px";
 }
 
 function cambiarcolor(){ 
